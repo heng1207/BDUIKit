@@ -1,0 +1,13 @@
+//
+//  JCViewController.h
+//  BDUIKit
+//
+//  Created by Your zhangheng on 04/18/2020.
+//  Copyright (c) 2020 Your zhangheng. All rights reserved.
+//
+
+@import UIKit;
+
+@interface JCViewController : UIViewController
+
+@end

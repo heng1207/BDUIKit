@@ -1,0 +1,6 @@
+framework module BDUIKit {
+  umbrella header "BDUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

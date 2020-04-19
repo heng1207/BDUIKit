@@ -7,7 +7,7 @@
 //
 
 #import "JCViewController.h"
-
+#import "JCManger.h"
 @interface JCViewController ()
 
 @end
@@ -17,6 +17,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    JCManger *man = [[JCManger alloc]init];
+    [man testPrint:@"1234"];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

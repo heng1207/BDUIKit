@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDUIKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   #总结
   s.summary          = 'iOSUI基础控件'
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-iOSUI基础控件,方便使用。
+TODO: iOSUI基础控件,方便使用。
                        DESC
 
   s.homepage         = 'https://github.com/heng1207/BDUIKit.git'

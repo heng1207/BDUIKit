@@ -8,6 +8,6 @@ target 'BDUIKit_Example' do
   target 'BDUIKit_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+    #pod 'FBSnapshotTestCase'
   end
 end

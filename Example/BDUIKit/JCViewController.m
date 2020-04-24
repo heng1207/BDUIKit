@@ -7,7 +7,8 @@
 //
 
 #import "JCViewController.h"
-#import "JCManger.h"
+#import <BDUIKit/BDUIKit.h>
+
 @interface JCViewController ()
 
 @end
@@ -18,8 +19,8 @@
 {
     [super viewDidLoad];
     
-    JCManger *man = [[JCManger alloc]init];
-    [man testPrint:@"1234"];
+    UIButtonEnlarge *btn =[[UIButtonEnlarge alloc]init];
+    [self.view addSubview:btn];
     
     
 	// Do any additional setup after loading the view, typically from a nib.

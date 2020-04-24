@@ -14,22 +14,15 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - BDUIKit (0.1.1):
+  - BDUIKit (0.1.0):
     - AFNetworking
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
 
 DEPENDENCIES:
   - BDUIKit (from `../`)
-  - FBSnapshotTestCase
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   BDUIKit:
@@ -37,9 +30,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  BDUIKit: 1a7fc3f7953d675ea54b42dd824f821275ebe812
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  BDUIKit: 5907acc55c83ba59bf008c13039571c368f5a7e4
 
-PODFILE CHECKSUM: 566dcc3d6216cbb1ab74eda92f5b7d67eb676f16
+PODFILE CHECKSUM: a9a368368645ddb8dbad4ec6b0e94db8d33b295f
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.0

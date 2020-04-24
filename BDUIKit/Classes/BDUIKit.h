@@ -1,16 +1,14 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
+//
+//  BDUIKit.h
+//  Pods
+//
+//  Created by heng on 2020/4/24.
+//
 
-#import "BDUIKit.h"
+#ifndef BDUIKit_h
+#define BDUIKit_h
+
+
 #import "UIBarButtonItem+GFBarButtonItem.h"
 #import "UIButton+Alignment.h"
 #import "UIButtonEnlarge.h"
@@ -27,6 +25,5 @@
 #import "UIView+UIViewController.h"
 #import "UIViewEnlarge.h"
 
-FOUNDATION_EXPORT double BDUIKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char BDUIKitVersionString[];
 
+#endif /* BDUIKit_h */

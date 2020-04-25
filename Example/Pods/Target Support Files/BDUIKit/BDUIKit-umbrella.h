@@ -26,6 +26,8 @@
 #import "UIView+Frame.h"
 #import "UIView+UIViewController.h"
 #import "UIViewEnlarge.h"
+#import "UIButton+Alignment.h"
+#import "UIButtonEnlarge.h"
 
 FOUNDATION_EXPORT double BDUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char BDUIKitVersionString[];

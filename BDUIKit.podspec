@@ -18,9 +18,8 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: iOSUI基础控件,方便使用。
-                       DESC
+  s.description      = iOSUI基础控件,方便使用。
+        
 
   s.homepage         = 'https://github.com/heng1207/BDUIKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -32,6 +31,11 @@ TODO: iOSUI基础控件,方便使用。
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'BDUIKit/Classes/**/*'
+  #二级目录
+  s.subspec 'UIButton' do |ss|
+    ss.source_files = 'BDUIKit/Classes/UIButton/*.{h,m}'
+    #二级目录
+  end
   
   # s.resource_bundles = {
   #   'BDUIKit' => ['BDUIKit/Assets/*.png']

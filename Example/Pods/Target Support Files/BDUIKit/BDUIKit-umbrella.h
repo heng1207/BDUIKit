@@ -12,22 +12,20 @@
 
 #import "BDUIKit.h"
 #import "UIBarButtonItem+GFBarButtonItem.h"
-#import "UIButton+Alignment.h"
-#import "UIButtonEnlarge.h"
 #import "UIColor+Addition.h"
 #import "UIDevice+KCHardware.h"
+#import "UILabel+String.h"
+#import "UIButton+Alignment.h"
+#import "UIButtonEnlarge.h"
 #import "UIImage+EX.h"
 #import "UIImage+Extension.h"
 #import "UIImage+FromColor.h"
 #import "UIImage+WaterMask.h"
-#import "UILabel+String.h"
 #import "UIView+AnimationExtend.h"
 #import "UIView+BorderLine.h"
 #import "UIView+Frame.h"
 #import "UIView+UIViewController.h"
 #import "UIViewEnlarge.h"
-#import "UIButton+Alignment.h"
-#import "UIButtonEnlarge.h"
 
 FOUNDATION_EXPORT double BDUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char BDUIKitVersionString[];

@@ -1,6 +1,6 @@
 {
   "name": "BDUIKit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "iOSUI基础控件",
   "description": "TODO: iOSUI基础控件,方便使用。",
   "homepage": "https://github.com/heng1207/BDUIKit.git",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/heng1207/BDUIKit.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BDUIKit/Classes/**/*",
+  "source_files": "BDUIKit/Classes/*.{h,m}",
   "dependencies": {
     "AFNetworking": [
 
@@ -28,6 +28,14 @@
     {
       "name": "UIButton",
       "source_files": "BDUIKit/Classes/UIButton/*.{h,m}"
+    },
+    {
+      "name": "UIImage",
+      "source_files": "BDUIKit/Classes/UIImage/*.{h,m}"
+    },
+    {
+      "name": "UIView",
+      "source_files": "BDUIKit/Classes/UIView/*.{h,m}"
     }
   ]
 }

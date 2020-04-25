@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDUIKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   #总结
   s.summary          = 'iOSUI基础控件'
 
@@ -31,10 +31,19 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BDUIKit/Classes/**/*'
+#  s.source_files = 'BDUIKit/Classes/**/*'
+  s.source_files = 'BDUIKit/Classes/*.{h,m}'
   #二级目录
   s.subspec 'UIButton' do |ss|
     ss.source_files = 'BDUIKit/Classes/UIButton/*.{h,m}'
+    #二级目录
+  end
+  s.subspec 'UIImage' do |ss|
+    ss.source_files = 'BDUIKit/Classes/UIImage/*.{h,m}'
+    #二级目录
+  end
+  s.subspec 'UIView' do |ss|
+    ss.source_files = 'BDUIKit/Classes/UIView/*.{h,m}'
     #二级目录
   end
   

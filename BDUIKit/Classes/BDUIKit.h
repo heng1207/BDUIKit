@@ -24,6 +24,7 @@
 #import "UIView+Frame.h"
 #import "UIView+UIViewController.h"
 #import "UIViewEnlarge.h"
+#import "UITableViewExt.h"
 
 
 #endif /* BDUIKit_h */

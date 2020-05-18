@@ -15,4 +15,7 @@
  */
 -(void)setText:(NSString*)text lineSpacing:(CGFloat)lineSpacing;
 
+
++ (instancetype)labelWithFontSize:(CGFloat)size textColorHexStr:(NSString*)colorHexStr textContent:(NSString *)textContent;
+
 @end

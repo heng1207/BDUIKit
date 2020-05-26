@@ -27,6 +27,6 @@
 #import "UITableViewExt.h"
 #import "HighlightedLabel.h"
 
-#import <SimpleSDK/SimpleSDK.h>
+//#import <SimpleSDK/SimpleSDK.h>
 
 #endif /* BDUIKit_h */

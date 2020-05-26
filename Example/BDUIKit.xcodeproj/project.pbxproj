@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1873028E6030C24BD1180E57 /* Pods-BDUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDUIKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDUIKit_Example/Pods-BDUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		23B253FEF98051B24A50A143 /* BDUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BDUIKit.podspec; path = ../BDUIKit.podspec; sourceTree = "<group>"; };
+		23B253FEF98051B24A50A143 /* BDUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BDUIKit.podspec; path = ../BDUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* BDUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };

@@ -22,8 +22,8 @@
     UIButtonEnlarge *btn =[[UIButtonEnlarge alloc]init];
     [self.view addSubview:btn];
     
-//    UIViewController *vc =[[TemplateManger shareInstance] getVC];
-//    [self.view addSubview:vc.view];
+    UIViewController *vc =[[TemplateManger shareInstance] getVC];
+    [self.view addSubview:vc.view];
     
 	// Do any additional setup after loading the view, typically from a nib.
 }

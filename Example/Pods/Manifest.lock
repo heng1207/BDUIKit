@@ -14,16 +14,16 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - BDUIKit (0.1.5):
+  - BDUIKit (1.0.5):
     - AFNetworking
-    - BDUIKit/UIButton (= 0.1.5)
-    - BDUIKit/UIImage (= 0.1.5)
-    - BDUIKit/UIView (= 0.1.5)
-  - BDUIKit/UIButton (0.1.5):
+    - BDUIKit/UIButton (= 1.0.5)
+    - BDUIKit/UIImage (= 1.0.5)
+    - BDUIKit/UIView (= 1.0.5)
+  - BDUIKit/UIButton (1.0.5):
     - AFNetworking
-  - BDUIKit/UIImage (0.1.5):
+  - BDUIKit/UIImage (1.0.5):
     - AFNetworking
-  - BDUIKit/UIView (0.1.5):
+  - BDUIKit/UIView (1.0.5):
     - AFNetworking
 
 DEPENDENCIES:
@@ -39,7 +39,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  BDUIKit: 4e5c02b7a37c6d7085bd48d56b14683fa5be95cc
+  BDUIKit: 3c0bc8c513e26ba040607ec4266b06db0e936386
 
 PODFILE CHECKSUM: a9a368368645ddb8dbad4ec6b0e94db8d33b295f
 

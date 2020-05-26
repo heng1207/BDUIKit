@@ -47,6 +47,9 @@ Pod::Spec.new do |s|
     #二级目录
   end
   
+  #静态库文件的依赖
+  s.vendored_frameworks = 'BDUIKit/Classes/*.framework'
+  
   # s.resource_bundles = {
   #   'BDUIKit' => ['BDUIKit/Assets/*.png']
   # }

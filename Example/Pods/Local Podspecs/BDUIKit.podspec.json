@@ -19,6 +19,7 @@
     "ios": "8.0"
   },
   "source_files": "BDUIKit/Classes/*.{h,m}",
+  "vendored_frameworks": "BDUIKit/Classes/*.framework",
   "dependencies": {
     "AFNetworking": [
 

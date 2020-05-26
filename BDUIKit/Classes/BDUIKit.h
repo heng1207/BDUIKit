@@ -25,6 +25,8 @@
 #import "UIView+UIViewController.h"
 #import "UIViewEnlarge.h"
 #import "UITableViewExt.h"
+#import "HighlightedLabel.h"
 
+#import <SimpleSDK/SimpleSDK.h>
 
 #endif /* BDUIKit_h */

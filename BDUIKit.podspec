@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDUIKit'
-  s.version          = '0.1.5'
+  s.version          = '1.0.4'
   #总结
   s.summary          = 'iOSUI基础控件'
 

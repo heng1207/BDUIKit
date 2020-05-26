@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDUIKit'
-  s.version          = '0.1.3'
+  s.version          = '1.0.3'
   #总结
   s.summary          = 'iOSUI基础控件'
 
@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
   end
   
   #静态库文件的依赖
-  s.vendored_frameworks = 'BDUIKit/Classes/*.framework'
+  s.vendored_frameworks = 'BDUIKit/Classes/SimpleSDK.framework'
   
   # s.resource_bundles = {
   #   'BDUIKit' => ['BDUIKit/Assets/*.png']

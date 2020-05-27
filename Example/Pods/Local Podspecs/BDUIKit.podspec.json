@@ -1,6 +1,6 @@
 {
   "name": "BDUIKit",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "summary": "iOSUI基础控件",
   "description": "TODO: iOSUI基础控件,方便使用。",
   "homepage": "https://github.com/heng1207/BDUIKit.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/heng1207/BDUIKit.git",
-    "tag": "1.0.7"
+    "tag": "1.0.8"
   },
   "platforms": {
     "ios": "8.0"

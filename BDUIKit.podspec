@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDUIKit'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   #总结
   s.summary          = 'iOSUI基础控件'
 
@@ -57,5 +57,8 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # 尝试引入第三方依赖库
+  s.dependency 'BDFoundation'
   s.dependency 'AFNetworking'
+
+  
 end

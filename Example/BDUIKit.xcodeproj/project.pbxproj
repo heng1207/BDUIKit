@@ -303,11 +303,13 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BDUIKit_Example/Pods-BDUIKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BDFoundation/BDFoundation.framework",
 				"${BUILT_PRODUCTS_DIR}/BDUIKit/BDUIKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BDFoundation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BDUIKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

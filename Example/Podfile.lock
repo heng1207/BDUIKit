@@ -14,35 +14,33 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - BDFoundation (0.0.1)
-  - BDUIKit (1.0.8):
+  - BDUIKit (1.0.9):
     - AFNetworking
-    - BDUIKit/UIButton (= 1.0.8)
-    - BDUIKit/UIImage (= 1.0.8)
-    - BDUIKit/UIView (= 1.0.8)
-  - BDUIKit/UIButton (1.0.8):
+    - BDUIKit/UIButton (= 1.0.9)
+    - BDUIKit/UIImage (= 1.0.9)
+    - BDUIKit/UIView (= 1.0.9)
+  - BDUIKit/UIButton (1.0.9):
     - AFNetworking
-  - BDUIKit/UIImage (1.0.8):
+  - BDUIKit/UIImage (1.0.9):
     - AFNetworking
-  - BDUIKit/UIView (1.0.8):
+  - BDUIKit/UIView (1.0.9):
     - AFNetworking
 
 DEPENDENCIES:
-  - BDFoundation
-  - BDUIKit
+  - BDUIKit (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-  https://github.com/heng1207/modules.git:
-    - BDFoundation
-    - BDUIKit
+
+EXTERNAL SOURCES:
+  BDUIKit:
+    :path: "../"
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  BDFoundation: 9387f35cbc48d7998fa2aed1441d88fd5e043431
-  BDUIKit: c53528e2f7e081d3071868f942488fecd4493268
+  BDUIKit: 0dba38856f33c36a72a855b0023d4f5209ca004f
 
-PODFILE CHECKSUM: 419db2d4f0b4d74e95711d39d559599045a631f1
+PODFILE CHECKSUM: a9a368368645ddb8dbad4ec6b0e94db8d33b295f
 
 COCOAPODS: 1.7.0
